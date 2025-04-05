@@ -2,7 +2,7 @@
 
 ID=$(id -u)
 
-if [ $ID -ne 0]
+if [ $ID -ne 0 ]
 then 
    echo "Error:: please run script with root access"
 else
